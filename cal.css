@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+   margin: 10px;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/758/310/476/blue-and-red-fire-wallpaper-preview.jpg");				 
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 85%;
+}
+input{
+    width: 320px;
+    border: black;
+    padding: 24px;
+    margin: 10px;
+    background: white;
+    box-shadow: 0px 3px 15px rgba(9, 241, 222, 0.724);
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+    color: #e90acb;
+}
+input::placeholder{
+    color: #0fe6ee;
+ }
+ 
+
+ button{
+    border: none;
+    border-style: double dashed ;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: red;
+    font-size: 20px;
+    box-shadow: inset 4px 4px 10px rgba(7, 238, 18, 0.973) ,
+    inset -8px -8px 15px rgba(5, 238, 44, 0.959);
+    cursor: pointer;
+    transition: all 0.1s;
+ }
+
+ button:active{
+    scale:5.5;
+ }
+ 
+ .equalBtn{
+    background-color: #0af7e3;
+    box-shadow: inset 5px 5px 5px rgba(6, 233, 241, 0.715);
+ }
+ 
+ 
+ 
+ 
